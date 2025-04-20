@@ -4,7 +4,6 @@ df = pd.read_csv('Exam_Table.csv').dropna()
 
 col_list = df.columns.to_list()
 index_list = df.index.to_list()
-# print(index_list)
 
 data_dict = {index_list[0] + 1 : col_list}
 
